@@ -30,3 +30,13 @@ pi = 3.14
 poleKolo = pi*r*r
 obwodKolo = 2*pi*r
 print("Pole koła wynosi: " + str(poleKolo)", a obwod wynosi: " + str(obwodKolo))
+
+#trapez
+#TODO
+aTrapez = 4
+bTrapez = 12
+hTrapez = 6
+cTrapez = 5
+poleTrapez = 1/2*(aTrapez+bTrapez)*hTrapez
+obwodTrapez = aTrapez+bTrapez+cTrapez+cTrapez
+print("Pole trapezu wynosi: " + str(poleTrapez)", a obwod wynosi: " + str(obwodTrapez))
