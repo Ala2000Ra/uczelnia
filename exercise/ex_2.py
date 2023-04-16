@@ -15,3 +15,10 @@ hRomb = 6
 poleRomb = aR*hRomb 
 obwodRomb = 4*aRomb 
 print("Pole rombu wynosi: " + str(poleRomb)", a obwod wynosi: " + str(obwodRomb))
+
+#kwadrat
+#TODO
+aKwadrat = 4
+poleKwadrat = aKwadrat*aKwadrat
+obwodKwadrat = 4*aKwadrat
+print("Pole kwadratu wynosi: " + str(poleKwadrat)", a obwod wynosi: " + str(obwodKwadrat))
