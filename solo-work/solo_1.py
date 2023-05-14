@@ -23,3 +23,12 @@ liczba = 3
 potega = 4
 wynik = liczba**potega
 print("Wynik wynosi: " +str(wynik))
+
+#zad 1.6
+ciag_znakow = "edbw(hdakqas(skqskahb))adwndwb(wgwidn()dsqwhjdw)"
+liczba_nawiasow_otwierajacych = 0
+for nawias in ciag_znakow:
+    if nawias == "(":
+        liczba_nawiasow_otwierajacych = liczba_nawiasow_otwierajacych + 1
+        
+print("Liczba nawiasow otwierajacych wynosi: " + str(liczba_nawiasow_otwierajacych))
