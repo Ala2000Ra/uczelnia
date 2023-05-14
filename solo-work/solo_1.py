@@ -12,3 +12,8 @@ print("Hello "+ student)
 studenci = ["Ania", "Kuba", "Piotr", "Jan"]
 liczba_studentow = len(studenci)
 print("Liczba studentów wynosi: " + str(liczba_studentow))
+
+#zad 1.4
+studenci = ["Ania", "Kasia", "Piotr", "Tomek"]
+for x in studenci:
+    print("Hello " + x)
