@@ -32,3 +32,10 @@ for nawias in ciag_znakow:
         liczba_nawiasow_otwierajacych = liczba_nawiasow_otwierajacych + 1
         
 print("Liczba nawiasow otwierajacych wynosi: " + str(liczba_nawiasow_otwierajacych))
+
+#zad 1.7
+studenci = ["Anna Szczesny", "Tomasz Nijaki", "Barbara Kowalska", "Jan Niezbedny"]
+studenci.sort()
+print("Alfabetyczna lista studentow wynosi: ")
+for student in studenci:
+    print(student)
