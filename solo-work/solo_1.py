@@ -7,3 +7,8 @@ print(hello + " " + student)
 #zad 1.2
 student = input("Wpisz swoje imie ")
 print("Hello "+ student)
+
+#zad 1.3
+studenci = ["Ania", "Kuba", "Piotr", "Jan"]
+liczba_studentow = len(studenci)
+print("Liczba studentów wynosi: " + str(liczba_studentow))
